@@ -1,14 +1,15 @@
-# mystring = "Don't worry about apostrophes"
-# print(mystring)
+#string print
+mystring = "Don't worry about apostrophes"
+print(mystring)
 
-# change this code
-mystring = None
+# string operation
+str = None
 myfloat = None
 myint = None
 
 # testing code
-if mystring == "hello":
-    print("String: %s" % mystring)
+if str == "hello":
+    print("String: %s" % str)
 if isinstance(myfloat, float) and myfloat == 10.0:
     print("Float: %f" % myfloat)
 if isinstance(myint, int) and myint == 20:

@@ -1,12 +1,14 @@
 # INT
 myInt=7
 print(myInt)
+
 # FLOT
 myfloat = 7.0
 print(myfloat)
 myfloat = float(7)
 print(myfloat)
 
+#operation
 number = 1 + 2 * 3 / 4.0
 print(number)
 
