@@ -12,7 +12,7 @@ for key, velue in phonebook.items():
 
 print(names)
 # testing code
-if "John" in names:
+if "John" in phonebook.keys():
     print("John is listed in the phonebook.")
 if "Jill" not in names:
     print("Jill is not listed in the phonebook.")
