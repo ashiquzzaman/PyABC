@@ -20,3 +20,19 @@ print(helloworld)
 
 lotsofhellos = "hello" * 10
 print(lotsofhellos)
+
+# This prints out "Hello, AzR!"
+name = "AzR"
+print("Hello, %s!" % name)
+
+#To use two or more argument specifiers, use a tuple (parentheses)
+# This prints out "AzR is 23 years old."
+name = "Azr"
+age = 23
+print("%s is %d years old." % (name, age))
+
+#TODO
+data = ("John", "Doe", 53.44)
+format_string = "Hello %s %s. Your current balance is $%.2f."
+
+print(format_string % data)
